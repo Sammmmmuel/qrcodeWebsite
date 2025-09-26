@@ -1,16 +1,16 @@
 {
-  "name": "qr-stripe-app",
+  "name": "qr-code",
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "dotenv": "^16.4.0",
-    "ejs": "^3.1.9",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
-    "nodemailer": "^6.9.8",
+    "nodemailer": "^6.9.7",
     "qrcode": "^1.5.3",
-    "stripe": "^15.0.0"
+    "stripe": "^18.5.0"
   }
 }
